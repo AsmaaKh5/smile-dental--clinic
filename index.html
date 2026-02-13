@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيادة الابتسامة لطب الأسنان</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">🦷 <span>عيادة</span> الابتسامة</div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services">خدماتنا</a></li>
+                <li><a href="#doctors">أطباؤنا</a></li>
+                <li><a href="#testimonials">آراء العملاء</a></li>
+                <li><a href="#booking" class="nav-btn">احجز موعدك</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-container">
+            <span class="hero-badge">✨ أفضل عيادة أسنان في المدينة</span>
+            <h1>ابتسامتك تبدأ من <span>عندنا</span></h1>
+            <p>نقدم لك رعاية أسنان شاملة بأحدث التقنيات وأفضل الأطباء المتخصصين. راحتك وصحة أسنانك أولويتنا.</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn-primary">احجز موعدك الآن</a>
+                <a href="#services" class="btn-secondary">تعرف على خدماتنا</a>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number" id="counter1">0</div>
+                    <div class="stat-label">عميل سعيد</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="counter2">0</div>
+                    <div class="stat-label">سنة خبرة</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="counter3">0</div>
+                    <div class="stat-label">طبيب متخصص</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="counter4">0</div>
+                    <div class="stat-label">خدمة متنوعة</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>خدماتنا المتميزة</h2>
+                <p>نقدم مجموعة شاملة من خدمات طب الأسنان بأعلى معايير الجودة</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🦷</div>
+                    <h3>تنظيف الأسنان</h3>
+                    <p>تنظيف احترافي وإزالة الجير والتصبغات للحفاظ على صحة أسنانك ولمعانها</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>تبييض الأسنان</h3>
+                    <p>تقنيات تبييض متقدمة للحصول على ابتسامة ناصعة البياض بأمان تام</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>تقويم الأسنان</h3>
+                    <p>تقويم تقليدي وشفاف لتصحيح اعوجاج الأسنان والحصول على ابتسامة مثالية</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💎</div>
+                    <h3>ابتسامة هوليود</h3>
+                    <p>فينيرز وعدسات لاصقة عالية الجودة لتحصل على ابتسامة نجوم هوليود</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏥</div>
+                    <h3>زراعة الأسنان</h3>
+                    <p>زراعة أسنان بتقنيات حديثة ومواد عالية الجودة لتعويض الأسنان المفقودة</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👶</div>
+                    <h3>أسنان الأطفال</h3>
+                    <p>عناية خاصة بأسنان أطفالك في بيئة مريحة وودودة تناسبهم</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>لماذا تختارنا؟</h2>
+                <p>مميزات تجعلنا الخيار الأول لك ولعائلتك</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">🏆</div>
+                    <div>
+                        <h4>خبرة 15+ سنة</h4>
+                        <p>خبرة طويلة في مجال طب الأسنان وآلاف الحالات الناجحة</p>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">⚡</div>
+                    <div>
+                        <h4>أحدث التقنيات</h4>
+                        <p>نستخدم أحدث الأجهزة والتقنيات العالمية في جميع العلاجات</p>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">💰</div>
+                    <div>
+                        <h4>أسعار مناسبة</h4>
+                        <p>أسعار تنافسية مع إمكانية التقسيط وعروض مستمرة</p>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">🕐</div>
+                    <div>
+                        <h4>مواعيد مرنة</h4>
+                        <p>نعمل 6 أيام في الأسبوع مع فترات صباحية ومسائية</p>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">😊</div>
+                    <div>
+                        <h4>راحة المريض</h4>
+                        <p>بيئة مريحة وطاقم ودود يهتم براحتك طوال فترة العلاج</p>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">🛡️</div>
+                    <div>
+                        <h4>ضمان على العلاج</h4>
+                        <p>نقدم ضمان على جميع أعمالنا لراحة بالك التامة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="doctors" id="doctors">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>فريقنا الطبي</h2>
+                <p>نخبة من أفضل أطباء الأسنان المتخصصين</p>
+            </div>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <div class="doctor-img">👨‍⚕️</div>
+                    <div class="doctor-info">
+                        <h3>د. أحمد محمد</h3>
+                        <div class="specialty">استشاري تقويم الأسنان</div>
+                        <p>خبرة 18 سنة في تقويم الأسنان والفكين</p>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-img">👩‍⚕️</div>
+                    <div class="doctor-info">
+                        <h3>د. سارة خالد</h3>
+                        <div class="specialty">أخصائية تجميل الأسنان</div>
+                        <p>متخصصة في ابتسامة هوليود والفينيرز</p>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-img">👨‍⚕️</div>
+                    <div class="doctor-info">
+                        <h3>د. عمر حسن</h3>
+                        <div class="specialty">استشاري زراعة الأسنان</div>
+                        <p>خبرة 12 سنة في زراعة وجراحة الأسنان</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>ماذا يقول عملاؤنا</h2>
+                <p>تجارب حقيقية من عملائنا الكرام</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"تجربة ممتازة! الدكتور أحمد محترف جداً وفريق العمل ودود. النتيجة أفضل مما توقعت. أنصح الجميع بزيارتهم."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">م</div>
+                        <div>
+                            <div class="author-name">محمد العلي</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"عملت ابتسامة هوليود عند الدكتورة سارة والنتيجة مذهلة! العيادة نظيفة جداً والتعامل راقي."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ن</div>
+                        <div>
+                            <div class="author-name">نورة سعد</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"خائف كنت من زيارة طبيب الأسنان بس الفريق هنا خلاني مرتاح تماماً. شكراً لكم على الاهتمام والرعاية."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">خ</div>
+                        <div>
+                            <div class="author-name">خالد عبدالله</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking" id="booking">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>احجز موعدك الآن</h2>
+                <p>املأ النموذج وسنتواصل معك لتأكيد الموعد</p>
+            </div>
+            <div class="booking-container">
+                <form id="bookingForm" onsubmit="submitForm(event)">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>الاسم الكامل *</label>
+                            <input type="text" placeholder="أدخل اسمك" required>
+                        </div>
+                        <div class="form-group">
+                            <label>رقم الجوال *</label>
+                            <input type="tel" placeholder="05XXXXXXXX" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>الخدمة المطلوبة *</label>
+                            <select required>
+                                <option value="">اختر الخدمة</option>
+                                <option>تنظيف الأسنان</option>
+                                <option>تبييض الأسنان</option>
+                                <option>تقويم الأسنان</option>
+                                <option>ابتسامة هوليود</option>
+                                <option>زراعة الأسنان</option>
+                                <option>أسنان الأطفال</option>
+                                <option>كشف واستشارة</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>التاريخ المفضل *</label>
+                            <input type="date" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>ملاحظات إضافية</label>
+                        <textarea rows="3" placeholder="أي تفاصيل إضافية تود إخبارنا بها..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">تأكيد الحجز</button>
+                    <div class="success-message" id="successMsg">
+                        ✅ تم استلام طلبك بنجاح! سنتواصل معك قريباً لتأكيد الموعد
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-grid">
+            <div class="contact-item">
+                <h3>🦷 عيادة الابتسامة</h3>
+                <p>نقدم أفضل خدمات طب الأسنان بأحدث التقنيات وأمهر الأطباء. صحة أسنانك أولويتنا.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">📘</a>
+                    <a href="#" class="social-link">📸</a>
+                    <a href="#" class="social-link">🐦</a>
+                    <a href="#" class="social-link">📱</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <h3>📍 العنوان</h3>
+                <p>شارع الملك فهد<br>المدينة، المملكة العربية السعودية<br>بجانب مركز الراشد التجاري</p>
+            </div>
+            <div class="contact-item">
+                <h3>📞 تواصل معنا</h3>
+                <p>الهاتف: 012-345-6789<br>الجوال: 050-123-4567<br>البريد: info@smile-clinic.com</p>
+            </div>
+            <div class="contact-item">
+                <h3>🕐 ساعات العمل</h3>
+                <p>السبت - الخميس: 9 ص - 10 م<br>الجمعة: 4 م - 10 م<br>العيادة مفتوحة طوال الأسبوع</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 عيادة الابتسامة لطب الأسنان. جميع الحقوق محفوظة</p>
+    </footer>
+
+    <a href="https://wa.me/966501234567" target="_blank" class="whatsapp-float">💬</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
